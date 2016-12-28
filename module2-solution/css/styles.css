@@ -1,0 +1,80 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Cursive;
+}
+
+h1 {
+  text-align: center;
+  margin: 35px;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+p {
+  margin: 15px;
+  margin-top: 5px;
+}
+
+#container {
+  position: relative;
+}
+
+#item1, #item2, #item3 {
+  background-color: tan;
+  width: 125px;
+  height: 45px;
+  margin-right: 10px;
+  text-align: center;
+  color:black;
+  border:1px solid black;
+  position:relative;
+  float:right;
+}
+
+#item2 {
+  background-color: red;
+}
+
+#item3 {
+  background-color: salmon;
+}
+
+#description { 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 767px) and (max-width: 992px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}

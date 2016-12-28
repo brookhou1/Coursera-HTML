@@ -21,11 +21,11 @@ p {
   margin-top: 5px;
 }
 
-#container {
+#container_1, #container_2, #container_3 {
   position: relative;
 }
 
-#item1, #item2, #item3 {
+.item1, .item2, .item3 {
   background-color: tan;
   width: 125px;
   height: 45px;
@@ -37,15 +37,15 @@ p {
   float:right;
 }
 
-#item2 {
+.item2 {
   background-color: red;
 }
 
-#item3 {
+.item3 {
   background-color: salmon;
 }
 
-#description { 
+.description { 
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
